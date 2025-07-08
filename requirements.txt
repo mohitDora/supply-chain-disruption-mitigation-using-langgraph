@@ -1,0 +1,6 @@
+langchain
+langgraph
+python-dotenv
+langchain-google-genai
+pydantic
+ipykernel
