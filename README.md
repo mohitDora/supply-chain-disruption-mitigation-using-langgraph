@@ -38,6 +38,10 @@ The system comprises five distinct agents, each with a specialized role:
 - **Role:** The central orchestrator of the multi-agent system.
 - **Functionality:** Uses an LLM to analyze the current state of the entire system and decide which sub-agent should execute next. It ensures the workflow progresses logically from monitoring to detection, mitigation, human approval, and finally execution/reporting, handling loops for re-evaluation as needed.
 
+## Architecture
+
+![RAG Agent Architecture Diagram](images/output.png)
+
 ## System Workflow
 The system operates in a loop, coordinated by the SupervisorAgent:
 
